@@ -1,0 +1,8 @@
+ <VirtualHost *:80>
+        ServerName tchaokko.truc.tp        
+        DocumentRoot /home/leo/test
+        <Directory /usr/local/src>
+                Order allow,deny
+                Allow from all
+        </Directory>
+</VirtualHost>
